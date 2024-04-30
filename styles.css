@@ -1,10 +1,11 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --branco-principal: hsl(0, 0%, 100%);
+    --cinza-secundario: #822dc7;
+    --botao-azul: #5a2b97;
+    background-image: linear-gradient(#000000,#791f8b);
+    
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+    --botao-azul-efeito: #7b37d3;
 }
 
 body {
@@ -20,8 +21,14 @@ body {
     padding: 0;
 }
 
+.wall-jogos{
+    width: 50;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
 .principal {
-    background-image: url("img/Background.png");
+    
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -31,7 +38,8 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 500%;
+    
 }
 
 .container__botao {
