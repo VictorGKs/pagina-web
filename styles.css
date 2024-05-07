@@ -2,7 +2,7 @@
     --branco-principal: hsl(0, 0%, 100%);
     --cinza-secundario: #822dc7;
     --botao-azul: #5a2b97;
-    background-image: linear-gradient(#000000,#791f8b);
+    background-image: linear-gradient(#000000,#000000);
     
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #7b37d3;
